@@ -1,0 +1,77 @@
+.banner{
+    height: 200px;
+    margin: -10px -10px 0 -10px ;
+    background-color: bisque;
+}
+
+.section-tabs{
+    display: flex;
+    background-color: aliceblue;
+}
+
+.container-tabs{
+    margin: 0 auto;
+    max-width: 100vw;
+}
+
+.buttons-tab{
+    gap: 30px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: -2.4em;
+}
+
+.button{
+    color: #000000;
+    padding: 20px 20px 0;
+    background-color: aqua;
+    border-radius: 16px 16px 0 0;
+}
+
+.body-screen{
+    margin-top: -38px;
+}
+
+.body-screen.activated{
+    display: block;
+}
+
+.one{
+    display: none;
+    width: 800px;
+    height: 500px;
+    background-color: aquamarine;
+}
+
+.two{
+    display: none;
+    width: 800px;
+    height: 500px;
+    background-color: red;
+}
+
+.three{
+    display: none;
+    width: 800px;
+    height: 500px;
+    background-color: blue;
+}
+
+.four{
+    display: none;
+    width: 800px;
+    height: 500px;
+    background-color: green;
+}
+.five{
+    display: none;
+    width: 800px;
+    height: 500px;
+    background-color: yellowgreen;
+}
+
+
+.button span{
+    font-family: "Roboto", sans-serif;
+}
