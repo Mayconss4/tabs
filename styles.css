@@ -1,31 +1,36 @@
 .banner{
     height: 200px;
-    background-color: bisque;
+    background-color: #283B42;
 }
 
 .tabs-section{
     display: flex;
-    background-color: aliceblue;
+    background-color: #D1DDDB;
 }
 
 .tabs-container{
     margin: 0 auto;
     position: relative;
-    top: -60px;
-    max-width: 100vw;
+    top: -39px;
+    max-width: 70vw;
 }
 
 .tab-buttons{
-    gap: 30px;
+    gap: 5px;
     display: flex;
     flex-direction: row;
 }
 
 .primary-button{
     color: #000000;
-    padding: 20px;
-    background-color: aqua;
+    padding: 10px 20px;
+    background-color: #85B8CB;
     border-radius: 16px 16px 0 0;
+}
+
+.primary-button:hover{
+    cursor: pointer;
+    filter: brightness(.9);
 }
 
 .body-screen.activated{
@@ -41,36 +46,36 @@
 }
 
 .styles-one{
+    max-width: 150vw;
+    width: 100%;
     display: none;
-    width: 800px;
-    height: 500px;
-    background-color: aquamarine;
+    height: 800px;
 }
 
 .styles-two{
+    max-width: 150vw;
+    width: 100%;
     display: none;
-    width: 800px;
-    height: 500px;
-    background-color: red;
+    height: 800px;
 }
 
 .styles-three{
+    max-width: 150vw;
+    width: 100%;
     display: none;
-    width: 800px;
-    height: 500px;
-    background-color: blue;
+    height: 800px;
 }
 
 .styles-four{
+    max-width: 150vw;
+    width: 100%;
     display: none;
-    width: 800px;
-    height: 500px;
-    background-color: green;
+    height: 800px;
 }
 
 .styles-five{
+    max-width: 150vw;
+    width: 100%;
     display: none;
-    width: 800px;
-    height: 500px;
-    background-color: yellowgreen;
+    height: 800px;
 }

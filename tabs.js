@@ -11,3 +11,4 @@ $('.primary-button').click(function() {
     $('.body-screen').removeClass('activated');
     contentE1.addClass('activated');
 });
+
