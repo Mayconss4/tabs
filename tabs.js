@@ -1,8 +1,8 @@
 $(document).ready(function () {
 });
 
-$('.button').click(function() {
-    $('.button').removeClass('activated');
+$('.primary-button').click(function() {
+    $('.primary-button').removeClass('activated');
     $(this).addClass('activated');
 
     let contentID = $(this).data('content');

@@ -3,25 +3,25 @@
     background-color: bisque;
 }
 
-.section-tabs{
+.tabs-section{
     display: flex;
     background-color: aliceblue;
 }
 
-.container-tabs{
+.tabs-container{
     margin: 0 auto;
     position: relative;
     top: -60px;
     max-width: 100vw;
 }
 
-.buttons-tab{
+.tab-buttons{
     gap: 30px;
     display: flex;
     flex-direction: row;
 }
 
-.button{
+.primary-button{
     color: #000000;
     padding: 20px;
     background-color: aqua;
@@ -32,41 +32,45 @@
     display: block;
 }
 
-.one{
+.primary-button span{
+    font-family: "Roboto", sans-serif;
+}
+
+.tabs-body{
+
+}
+
+.styles-one{
     display: none;
     width: 800px;
     height: 500px;
     background-color: aquamarine;
 }
 
-.two{
+.styles-two{
     display: none;
     width: 800px;
     height: 500px;
     background-color: red;
 }
 
-.three{
+.styles-three{
     display: none;
     width: 800px;
     height: 500px;
     background-color: blue;
 }
 
-.four{
+.styles-four{
     display: none;
     width: 800px;
     height: 500px;
     background-color: green;
 }
 
-.five{
+.styles-five{
     display: none;
     width: 800px;
     height: 500px;
     background-color: yellowgreen;
-}
-
-.button span{
-    font-family: "Roboto", sans-serif;
 }
