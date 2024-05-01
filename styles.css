@@ -88,33 +88,33 @@
     height: 800px;
 }
 
-.dropdown {
+.tabs-dropdown {
     position: relative;
 }
 
-.dropbtn {
+.tabs-dropbtn {
     display: none;
     border-color: transparent;
     font-size: 13.5px;
     color: #000000;
-    padding: 10px 20px;
+    padding: 10px 11px;
     background-color: #85B8CB;
     border-radius: 16px;
 }
 
 
-.dropdown-content {
+.tabs-dropdown-content {
     display: none;
     position: absolute;
     background-color: #f1f1f1;
     z-index: 1;
 }
 
-.dropdown:hover .dropdown-content {
+.tabs-dropdown:hover .tabs-dropdown-content {
     display: block;
 }
 
-.dropdown:hover .dropbtn {
+.tabs-dropdown:hover .tabs-dropbtn {
     filter: brightness(.9);
 }
 
@@ -125,7 +125,7 @@
     .primary-button{
         border-radius: 0px;
     }
-    .dropbtn{
+    .tabs-dropbtn{
         display: block;
     }
 }
