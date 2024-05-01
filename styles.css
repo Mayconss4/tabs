@@ -94,6 +94,8 @@
 
 .dropbtn {
     display: none;
+    border-color: transparent;
+    font-size: 13.5px;
     color: #000000;
     padding: 10px 20px;
     background-color: #85B8CB;
