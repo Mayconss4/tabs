@@ -1,14 +1,31 @@
 .banner {
+    display: flex;
+    justify-content: center;
+    align-items: end; 
     height: 200px;
     background-color: #283B42;
 }
 
+#tabs-burguer{
+    display: none;
+    color: #ffffff;
+}
+
 .tabs-section {
     display: flex;
+    flex-direction: column;
     background-color: #D1DDDB;
 }
 
 .tabs-container {
+    margin: 0 auto;
+    position: relative;
+    top: -39px;
+    width: 100%;
+    max-width: 70vw;
+}
+
+.tabs-body-container {
     margin: 0 auto;
     position: relative;
     top: -39px;
@@ -45,11 +62,13 @@
 .tabs-body h2 {
     font-size: 50px;
     font-weight: bold;
+    animation: fadeIn .5s ease-in-out;
     font-family: "Roboto", sans-serif;
 }
 
 .tabs-body p {
     font-size: 30px;
+    animation: fadeIn .5s ease-in-out;
     font-family: "Roboto", sans-serif;
 }
 
@@ -88,39 +107,24 @@
     height: 800px;
 }
 
-.tabs-dropdown {
-    position: relative;
-}
-
-.tabs-dropbtn {
-    display: none;
-    border-color: transparent;
-    font-size: 13.5px;
-    color: #000000;
-    padding: 10px 11px;
-    background-color: #85B8CB;
-    border-radius: 16px;
-}
-
-
 .tabs-dropdown-content {
     display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    z-index: 1;
-}
-
-.tabs-dropdown:hover .tabs-dropdown-content {
-    display: block;
-}
-
-.tabs-dropdown:hover .tabs-dropbtn {
-    filter: brightness(.9);
+    align-items: center;
+    flex-direction: column;
+    max-width: 100vw;
+    width: 100%;    
+    background-color: #85B8CB;
 }
 
 @media (max-width: 764px) {
+    .banner {
+        height: 100px;
+    }
     .tab-buttons {
-      display: none;
+        display: none;
+    }
+    .tabs-body-container{
+        top: 0;
     }
     .primary-button{
         border-radius: 0px;
@@ -128,4 +132,12 @@
     .tabs-dropbtn{
         display: block;
     }
+    #tabs-burguer{
+        display: block;
+    }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
