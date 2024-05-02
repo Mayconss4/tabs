@@ -14,8 +14,10 @@ $('.primary-button').click(function() {
 
 function clickMenu(){
     if (dropdown.style.display=='flex'){
-        dropdown.style.display='none'
+        dropdown.style.display='none';
+        bodies.style.top='0px';
     } else {
-        dropdown.style.display='flex'
+        dropdown.style.display='flex';
+        bodies.style.top='-700px';
     }
 }
