@@ -27,6 +27,6 @@ $('#tabs-burguer').click(function(){
         $('#bodies').css('top', '0px');
     } else {
         $('#dropdown').css('display', 'flex');
-        $('#bodies').css('top', '-700px');
+        $('#bodies').css('top', '-200px');
     }
 });
