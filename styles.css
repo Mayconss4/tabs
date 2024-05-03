@@ -1,3 +1,7 @@
+main{
+    background-color: #D1DDDB;
+}
+
 .tabs-banner {
     display: flex;
     justify-content: start;
@@ -17,7 +21,6 @@
 .tabs-section {
     display: flex;
     flex-direction: column;
-    background-color: #D1DDDB;
 }
 
 .tabs-container {
@@ -152,9 +155,6 @@
         max-width: 23.5vw;
         width: 100%;
         text-align: center;
-    }
-    .tabs-dropbtn{
-        display: block;
     }
     #tabs-burguer{
         display: block;
